@@ -1,23 +1,10 @@
 // ESP8266_ILI9341_permanent_openweathermap
+// Version Board: ESP8266 3.0.1
+// Version Library:
+// Adafruit_ILI9341.h : 1.0.6
+// Arduino_JSON.h: 0.2.0
+// NTPClient by Fabrice: 3.2.1
 //
-// downloads json string from openweathermap.com
-// for environmental conditions of (any) town
-// displays alphanumerically, with gauges and with icons 
-//
-// updates every ten minutes in Loop -  check the variable named timerDelay
-//
-// microcontroller ESP8266 implemented with Wemos D1 mini
-// current display is a 320*240 ILI9341 controller, SPI interface
-// uses Adafruit_GFX library
-// implements Bodmer's rainbow scale gauge
-//
-// json instructions inspired heavily by Rui Santos
-// at https://RandomNerdTutorials.com/esp8266-nodemcu-http-get-open-weather-map-thingspeak-arduino/
-//
-// public domain
-// open source - thanks to all contributors
-// March 2, 2022
-// Floris Wouterlood
 //
 // pins:
 // TFT SPI ILI9341 - ESP8266 
