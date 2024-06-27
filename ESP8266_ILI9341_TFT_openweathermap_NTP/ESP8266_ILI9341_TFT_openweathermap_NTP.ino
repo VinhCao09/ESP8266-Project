@@ -1,10 +1,10 @@
-// ESP8266_ILI9341_permanent_openweathermap
+// ESP8266_ILI9341_permanent_openweathermap_time_alarm
 // Version Board: ESP8266 3.0.1
 // Version Library:
 // Adafruit_ILI9341.h : 1.0.6
 // Arduino_JSON.h: 0.2.0
 // NTPClient by Fabrice: 3.2.1
-//
+// 2024 Coding by Vinh Cao
 //
 // pins:
 // TFT SPI ILI9341 - ESP8266 
